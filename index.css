@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+.sr{
+    min-width: 1330px;
+}
+
 body{
     background-color: #BCC0CB;
 }
@@ -119,6 +123,7 @@ color: #BCC0CB;;
     width: 100%;
     height: 50%;
     background-color: #191A1E;
+ 
     
 }
 /* ***** PALETAS SUPERIORES ***** */
@@ -135,8 +140,9 @@ color: #BCC0CB;;
     background-position: center;
     background-attachment: contain;
 	background-size: cover;
-box-shadow: 0 8px 32px 0 rgba(188, 192, 203, 0.8);
-backdrop-filter: blur( 3.5px );
+    box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
+-webkit-box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
+-moz-box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -167,8 +173,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     background-position: center;
     background-attachment: contain;
 	background-size: cover;
-box-shadow: 0 8px 32px 0 rgba(188, 192, 203, 0.8);
-backdrop-filter: blur( 3.5px );
+    box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
+    -webkit-box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -219,6 +226,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 50%;
     margin-top: -3%;
     background-color: #191A1E; 
+  
 }
 
 .sobre-mi{  
@@ -235,9 +243,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     background-position: center;
     background-attachment: contain;
 	background-size: cover;
-box-shadow: 0 8px 32px 0 rgba(188, 192, 203, 0.8);
-backdrop-filter: blur( 4.0px );
+    box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
+    -webkit-box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
+    -moz-box-shadow: -10px 10px 40px 0px rgba(188,192,203,0.75);
 border-radius: 10px;
+
 }
 
 .sobre-mi-h3{
@@ -259,8 +269,9 @@ border-radius: 10px;
     background-position: center;
     background-attachment: contain;
 	background-size: cover;
-box-shadow: 0 8px 32px 0 rgba(188, 192, 203, 0.8);
-backdrop-filter: blur( 4.0px );
+    box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
+    -webkit-box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(188,192,203,0.75);
 border-radius: 10px;
 }
 
@@ -275,18 +286,22 @@ border-radius: 10px;
 
 /* ***** SECCION DE HABILIDADES ***** */
 
+.linea-central-padre{
+    display: flex;
+    justify-content: center;
+}
+
 .linea-central{
     position: absolute;
     width: 4px;
     background-color: #FDD900;
-    left: 50%;
-    transform: translateX(-50%);
     height: 70vw;
+    min-height: 90vh;
 }
 
 .linea-central .icon{
     background-color: #FDD900;
-    margin-top: 10vw;
+    
     height: 25px;
     width: 25px;
     text-align: center;
@@ -294,6 +309,10 @@ border-radius: 10px;
     border-radius: 50%;
     color: #09080D;
     margin-left: -11;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.58);
+    margin-top: 11vmax;
     
 }
 
@@ -302,6 +321,7 @@ border-radius: 10px;
     justify-content: center;
     margin-bottom: -13%;
     font-size: 1.7em;
+    text-shadow: 1px 2px 5px rgba(25,26,30,0.6);
 }
 
 .contenedor-skills{
@@ -310,12 +330,13 @@ border-radius: 10px;
     width: 100%;
     height: 70vw;
     padding: 1%;
-    margin-bottom: 10%;
+    border-top: 2px solid #191A1E;
+    border-bottom: 2px solid #191A1E;
     background: url(Imagenes/imagebackround.jpg);
     background-position: center;
     background-attachment: contain;
 	background-size: cover;
-    
+    min-height: 90vh;
     
 }
 
@@ -360,13 +381,19 @@ border-radius: 10px;
 
 /* ***** SECCION DE PROYECTOS ***** */
 
+
+
 .seccion-trabajos{
-    background: url();
+    background: url(Imagenes/fondo-trabajo1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
+.seccion-trabajos h2{
+    background-color: rgba(188,192,203,0.50);
+}
 .contenedor-trabajos{
     display: flex;
     justify-content: center;
@@ -404,7 +431,7 @@ background-color: #191A1E;
 .contacto-h2{
     text-align: center;
     background-color: #191A1E;
-    margin: 0 50px 2px 50px;
+    margin: 10% 50px 2px 50px;
     color: #F8F9FD;
 }
 
