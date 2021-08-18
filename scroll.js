@@ -137,14 +137,6 @@ window.sr = ScrollReveal();
 
     /* ***** REDES SOCIALES ***** */
 
-    sr.reveal('.contenedor-redes', {
-        duration: 2000,
-        origin: 'left',
-        distance: '-100px'
-    });
-
-    /* ***** REDES SOCIALES ***** */
-
     sr.reveal('footer', {
         duration: 2000,
         origin: 'bottom',
