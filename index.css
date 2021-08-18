@@ -301,7 +301,6 @@ border-radius: 10px;
 
 .linea-central .icon{
     background-color: #FDD900;
-    
     height: 25px;
     width: 25px;
     text-align: center;
@@ -407,13 +406,50 @@ border-radius: 10px;
 
 .trabajos{
     border: 2px solid #191a1e;
-    width: 15%;
-    height: 70%;
+    width: 300px;
+    height: 200px;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+
+.trabajo1{
+    background: url(imagenes/proyecto1.jpg);
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+transition: all 2s;
+cursor: pointer;
+}
+
+.trabajo1:hover{
+    filter: none;
+    transition: all 2s;
+}
+
+.trabajo1 h3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.40);
+    color: #F2ED54;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+    padding: 2%;
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.75);
+opacity: 0.5;
+transition: all 500ms ease-out;
+}
+
+.trabajo1 h3:hover{
+    opacity: 1;
+    transition: all 500ms ease-out;
+    padding-top: 10%;
 }
 
 /* ***** SECCION DE CONTACTOS ***** */
@@ -625,3 +661,38 @@ footer {
     letter-spacing: 5;
     padding: 3px;
 }
+
+/* ***** GO TOP ***** */
+
+#goTop{
+    top: 90%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    position: fixed;
+    transition: all 2s;
+    animation: aparece .3s ease-in-out;
+    display: none;
+}
+
+@keyframes aparece {
+    0%{
+        font-size: 1em;
+    }
+    100%{
+        font-size: 3em;
+    }
+}
+
+body .active {
+    color: black;
+}
+
+
+
