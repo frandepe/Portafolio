@@ -2,3 +2,87 @@
 @media  screen and (max-width: 1024px)
 @media  screen and (max-width: 768px)
 @media  screen and (max-width: 360px) */
+
+@media  screen and (max-width: 360px) {
+
+/* *** PRESENTACION PALETAS SUPERIORES *** */
+
+    .contenedor-presentacion{
+     flex-direction: column;
+     margin-top: 180px;
+    
+    }
+
+    .foto{
+        transform: none;
+    }
+
+    .contenedor-presentacion h3{
+        font-size: 4em;
+    }
+
+    .foto img{
+        max-width: 400px;
+        max-height: 400px;
+        
+    }
+
+    .presentacion{
+        margin-top: 2%;
+        transform: none;
+    }
+
+    .presentacion h1{
+        font-size: 2.3em;
+    }
+
+    .presentacion h2{
+        font-size: 2.5em;
+    }
+
+    /* *** PRESENTACION PALETAS INFERIORES *** */
+
+    .contenedor-sobre-mi{
+        flex-direction: column;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+
+    .sobre-mi{
+        transform: none;
+        width: 100%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    .sobre-mi h3{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 2em
+    }
+
+    .sobre-mi p{
+        font-size: 1.8em
+    }
+    .educacion{
+        transform: none;
+        width: 100%; 
+        margin-top: 2%;
+        padding: 3%;
+        margin-bottom: -4%;
+    }
+
+    .educacion h3{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 2em
+    }
+
+    .educacion p{
+        font-size: 1.8em
+    }
+
+   body script{
+       display: none;
+   }
+}

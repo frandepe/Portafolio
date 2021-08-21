@@ -130,7 +130,7 @@ color: #BCC0CB;;
 .foto{
     width: 100%;
     margin-top: 4.6%;
-    transform: rotate(10deg) scale(1.01) skew(10deg);
+   transform: rotate(10deg) scale(1.01) skew(10deg);
     -webkit-transform: rotate(10deg) scale(1.01) skew(10deg);
     -moz-transform: rotate(10deg) scale(1.01) skew(10deg);
     display: flex;
