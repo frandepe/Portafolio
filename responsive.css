@@ -3,7 +3,7 @@
 @media  screen and (max-width: 768px)
 @media  screen and (max-width: 360px) */
 
-@media  screen and (max-width: 370px) {
+@media  screen and (max-width: 375px) {
 
   
 /* *** HEADER *** */ 
@@ -33,7 +33,7 @@
 
 nav{
     padding: 25px 0;
-    
+    margin-top: 8%;
     
 }
 header{
@@ -52,12 +52,12 @@ header{
     height: 150vh;
     font-size: 3em;
     grid-template-columns: repeat(1, 1fr);
-    display: none;
+    /*display: none;*/
     
 }
 
 .lista-navegacion.activado{
-    display: flex;
+    display: none;
 }
 
 /* *** PRESENTACION PALETAS SUPERIORES *** */
@@ -100,7 +100,7 @@ header{
 
     .contenedor-sobre-mi{
         flex-direction: column;
-        margin-top: 20%;
+        margin-top: 33%;
         margin-bottom: 20%;
         height: 100%;
     }
