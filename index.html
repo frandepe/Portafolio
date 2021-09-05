@@ -31,7 +31,7 @@
         </div> 
 
         <nav>
-
+            
             <ul class="lista-navegacion">
 
                 <li>
@@ -51,6 +51,9 @@
                 </li>
 
             </ul>
+            <button type="button" class="ham">
+                <i class="fas fa-bars"></i>
+            </button>
 
         </nav>
     <!-- TOP -->
@@ -172,11 +175,19 @@
         <div class="contenedor-trabajos">
            <a href="https://github.com/frandepe/tareaPuedeNoPuede">
             <div class="trabajos trabajo1">
-                <h3>CSS & JS</h3>
+                <h3 class="proyectoh3">CSS & JS</h3>
             </div>
             </a>
-            <div class="trabajos trabajo2">2</div>
-            <div class="trabajos trabajo3">3</div>
+          <a href="https://github.com/frandepe/app-weather">
+            <div class="trabajos trabajo2">
+                <h3 class="proyectoh3">CSS & JS + API WEATHER</h3>
+            </div>
+         </a>    
+            <a href="https://github.com/frandepe/TMDB-API-search">
+                <div class="trabajos trabajo3">
+                    <h3 class="proyectoh3">SCSS & JS + API TMDB</h3>
+                </div>
+            </a>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#F2ED54" fill-opacity="1" d="M0,64L1440,128L1440,0L0,0Z"></path>
@@ -187,21 +198,21 @@
         <div class="contacto-h2"><h2>CONTACTO</h2></div>
         <div class="contenedor-contacto">
             <div class="contacto">
-                <form action="">
+                <form id="form" class="form" action="https://formspree.io/f/xjvjjwjp" method="POST">
                     <p>
-                        <label for="fullname">Nombre completo</label>
-                        <input type="text" name="fullname" id="fullname">
+                        <label class="obligatorio" for="fullname">Nombre</label>
+                        <input type="text" name="fullname" id="fullname" required>
                     </p>
                     <p>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <label class="obligatorio"for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
                     </p>
                     <p>
-                        <label for="telefono">Teléfono</label>
+                        <label class="opcional" for="telefono">Teléfono</label>
                         <input type="tel" name="phone" id="telefono">
                     </p>
                     <p>
-                        <label for="affair">Asunto</label>
+                        <label class="opcional" for="affair">Asunto</label>
                         <input type="text" name="affair" id="affair">
                     </p>
                     <p class="bloque">
@@ -211,6 +222,7 @@
                     <p class="bloque">
                         <button type="submit">ENVIAR</button>
                     </p>
+                    <b id="mensajeDeEnvio" class="mensajeEnvio"></b>
                 </form>
             </div>
             <div class="info-contacto">
@@ -251,5 +263,6 @@
 </div>
     <script src="./index.js"></script>
     <script src="./scroll.js"></script> 
+    <script src="./contacto.js"></script> 
 </body>
 </html>

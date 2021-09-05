@@ -33,3 +33,14 @@ function cambiarColorScroll() {
     }
     
 }
+
+//HAM
+
+const ham = document.querySelector('.ham');
+const li = document.querySelector('.lista-navegacion');
+
+
+ham.addEventListener('click', () => {
+    li.classList.toggle('activado');
+   
+})

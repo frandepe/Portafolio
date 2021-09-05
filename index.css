@@ -101,6 +101,12 @@ animation: animacionP 8s linear infinite;
 color: #BCC0CB;;
 }
 
+.ham{
+    cursor: pointer;
+    font-size: 1em;
+    display: none;
+}
+
 @keyframes animacionP{
     0%{
         content: 'Web developer';
@@ -394,13 +400,14 @@ border-radius: 10px;
     background-color: rgba(188,192,203,0.50);
 }
 .contenedor-trabajos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    justify-items: center;
     background-color: #F2ED54;
     width: 100%;
-    height: 30%;
+    height: auto;
     
 }
 
@@ -408,15 +415,45 @@ border-radius: 10px;
     border: 2px solid #191a1e;
     width: 300px;
     height: 200px;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform:
+    perspective(750px)
+    translate3d(0px, 0px, -250px)
+    rotateX(27deg)
+    scale(0.9, 0.9);
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.1s ease-in-out transform;
     
 }
 
+.trabajos:hover {
+    transform: translate3d(0px, 0px, -250px);
+  }
+
 .trabajo1{
     background: url(imagenes/proyecto1.jpg);
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+transition: all 2s;
+cursor: pointer;
+}
+
+.trabajo2{
+    background: url(imagenes/proyecto22.jpg);
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+transition: all 2s;
+cursor: pointer;
+}
+
+.trabajo3{
+    background: url(imagenes/proyecto3.jpg);
     filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
@@ -429,7 +466,12 @@ cursor: pointer;
     transition: all 2s;
 }
 
-.trabajo1 h3{
+.trabajo2:hover{
+    filter: none;
+    transition: all 2s;
+}
+
+.proyectoh3{
     width: 100%;
     height: 100%;
     display: flex;
@@ -446,7 +488,7 @@ opacity: 0.5;
 transition: all 500ms ease-out;
 }
 
-.trabajo1 h3:hover{
+.proyectoh3:hover{
     opacity: 1;
     transition: all 500ms ease-out;
     padding-top: 10%;
@@ -536,6 +578,23 @@ background-color: #F8F9FD;
     transition: 0.5s ease-out;
     outline: 0;
     cursor: pointer;
+}
+
+.opcional::after{
+    content: ' (opcional)';
+    color: #d6d48b;
+    font-size: 0.8em;
+}
+
+.obligatorio::after{
+    content: ' *';
+    color: #d6d48b;
+}
+
+.mensajeEnvio{
+    color: #F2ED54;
+    padding: 5px;
+    transition: all 1s;
 }
 
 /* ***** REDES SOCIALES ***** */
