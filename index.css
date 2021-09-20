@@ -456,12 +456,31 @@ transition: all 2s;
 cursor: pointer;
 }
 
+.trabajo4{
+    background: url(imagenes/proyecto4.jpg);
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+transition: all 2s;
+cursor: pointer;
+}
+
 .trabajo1:hover{
     filter: none;
     transition: all 2s;
 }
 
 .trabajo2:hover{
+    filter: none;
+    transition: all 2s;
+}
+
+.trabajo3:hover{
+    filter: none;
+    transition: all 2s;
+}
+
+.trabajo4:hover{
     filter: none;
     transition: all 2s;
 }
@@ -487,6 +506,18 @@ transition: all 500ms ease-out;
     opacity: 1;
     transition: all 500ms ease-out;
     padding-top: 10%;
+}
+
+.eye{
+    color: #191A1E; 
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.vacio{
+    color: grey;
 }
 
 /* ***** SECCION DE CONTACTOS ***** */
@@ -591,6 +622,8 @@ background-color: #F8F9FD;
     padding: 5px;
     transition: all 1s;
 }
+
+
 
 /* ***** REDES SOCIALES ***** */
 
