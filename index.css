@@ -465,6 +465,15 @@ transition: all 2s;
 cursor: pointer;
 }
 
+.trabajo5{
+    background: url(imagenes/proyecto5.png);
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+transition: all 2s;
+cursor: pointer;
+}
+
 .trabajo1:hover{
     filter: none;
     transition: all 2s;
@@ -481,6 +490,11 @@ cursor: pointer;
 }
 
 .trabajo4:hover{
+    filter: none;
+    transition: all 2s;
+}
+
+.trabajo5:hover{
     filter: none;
     transition: all 2s;
 }
