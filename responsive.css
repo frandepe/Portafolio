@@ -163,8 +163,8 @@ header{
    }
 
    .contenedor-skills{
-    height: 100vw;
-    min-height: 270vh;
+    height: 100%;
+    min-height: 320%;
    }
 
    .lista-izquierda li{
@@ -216,6 +216,34 @@ header{
 
 .contacto form textarea{
     font-size: 1em;
+}
+
+/* *** REDES *** */
+
+.redes-sociales{
+    width: 700px;
+    height: 180px;
+}
+
+span{
+    width: 700px;
+    height: 180px;
+    font-size: 4em;
+    padding-top: 50px;
+}
+
+.redes-sociales:hover span {
+    -webkit-transform: translateX(-700px);
+            transform: translateX(-700px)
+}
+
+.contenedor-redes .icon-2{
+    font-size: 4.5em;
+    padding: 25px;
+}
+
+footer {
+    font-size: 2em;
 }
 
 /* *** TOP *** */
