@@ -173,11 +173,16 @@ header{
 
    .lista-derecha li{
     font-size: 3em;
-}
+    }
 
-.linea-central{
+    .linea-central{
     display: none;
-}
+    }
+
+    .icon-tamaño{
+        width: 180px;
+        height: auto;
+    }
 
 /* *** PROYECTOS *** */
 
