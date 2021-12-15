@@ -833,7 +833,7 @@ a {
 }
 
 .opcional::after {
-  content: " (opcional)";
+  content: " (optional)";
   color: #d6d48b;
   font-size: 0.8em;
 }
