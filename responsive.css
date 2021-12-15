@@ -3,24 +3,21 @@
 @media  screen and (max-width: 768px)
 @media  screen and (max-width: 360px) */
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
+  /* *** HEADER *** */
 
-  
-/* *** HEADER *** */ 
-
-.container-nav{
+  .container-nav {
     margin-left: 40%;
     font-size: 3em;
     margin-top: 4%;
-    
-}
+  }
 
-.logoF{
+  .logoF {
     width: 120px;
     min-height: 50px;
-}
+  }
 
-.ham{
+  .ham {
     display: block;
     position: absolute;
     top: 50px;
@@ -30,26 +27,23 @@
     align-items: flex-start;
     text-align: left;
     font-size: 5em;
-    color: #BCC0CB;
-    background-color: #191A1E;
+    color: #bcc0cb;
+    background-color: #191a1e;
     border: none;
-}
+  }
 
-
-nav{
+  nav {
     padding: 25px 0;
     margin-top: 5%;
-    
-}
-header{
+  }
+  header {
     flex-direction: column;
     text-align: center;
     align-items: center;
     width: 100%;
-}
+  }
 
-
-.lista-navegacion{
+  .lista-navegacion {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -57,205 +51,230 @@ header{
     font-size: 3em;
     display: none;
     align-items: center;
-    
-}
+  }
 
-.lista-navegacion li{
+  .lista-navegacion li {
     margin: 10%;
-}
-.home-li{
+  }
+  .home-li {
     margin-right: 50px;
     padding: 10%;
-}
+  }
 
-.lista-navegacion.activado{ 
+  .lista-navegacion.activado {
     display: flex;
-}
+  }
 
-/* *** PRESENTACION PALETAS SUPERIORES *** */
+  /* *** PRESENTACION PALETAS SUPERIORES *** */
 
-    .contenedor-presentacion{
-     flex-direction: column;
-     height: 100%;
-    
-    }
+  .contenedor-presentacion {
+    flex-direction: column;
+    height: 100%;
+  }
 
-    .foto{
-        transform: none;
-        height: 100%;
-    }
+  .foto {
+    transform: none;
+    height: 100%;
+    overflow: initial;
+  }
 
-    .contenedor-presentacion h3{
-        font-size: 4em;
-    }
+  .foto span {
+    display: none;
+  }
 
-    .foto img{
-        max-width: 400px;
-        max-height: 400px;
-        
-    }
+  .contenedor-presentacion h3 {
+    font-size: 4em;
+  }
 
-    .presentacion{
-        margin-top: 2%;
-        transform: none;
-    }
+  .foto img {
+    max-width: 400px;
+    max-height: 400px;
+  }
 
-    .presentacion h1{
-        font-size: 2.7em;
-    }
+  .presentacion {
+    margin-top: 2%;
+    transform: none;
+    overflow: initial;
+  }
 
-    .presentacion h2{
-        font-size: 2.5em;
-    }
+  .presentacion span {
+    display: none;
+  }
 
-    /* *** PRESENTACION PALETAS INFERIORES *** */
+  .presentacion h1 {
+    font-size: 2.7em;
+  }
 
-    .contenedor-sobre-mi{
-        flex-direction: column;
-        margin-top: 33%;
-        margin-bottom: 20%;
-        height: 100%;
-    }
+  .presentacion h2 {
+    font-size: 2.5em;
+  }
 
-    .sobre-mi{
-        transform: none;
-        width: 100%;
-        margin: 0;
-        padding: 3%;
-        height: 100%;
-    }
+  /* *** PRESENTACION PALETAS INFERIORES *** */
 
-    .sobre-mi h3{
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-size: 3em
-    }
+  .contenedor-sobre-mi {
+    flex-direction: column;
+    margin-top: 33%;
+    margin-bottom: 20%;
+    height: 100%;
+  }
 
-    .sobre-mi p{
-        font-size: 2.5em
-    }
-    .educacion{
-        transform: none;
-        width: 100%; 
-        margin-top: 2%;
-        padding: 3%;
-        height: 100%;
-    }
+  .sobre-mi {
+    transform: none;
+    width: 100%;
+    margin: 0;
+    padding: 3%;
+    height: 100%;
+  }
 
-    .educacion h3{
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-size: 3em
-    }
+  .sobre-mi h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 3em;
+  }
 
-    .educacion p{
-        font-size: 2.5em
-    }
+  .sobre-mi p {
+    font-size: 2.5em;
+  }
+  .educacion {
+    transform: none;
+    width: 100%;
+    margin-top: 2%;
+    padding: 3%;
+    height: 100%;
+  }
 
-   body script{
-       display: none;
-   }
+  .educacion h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 3em;
+  }
 
-   /* *** HABILIDADES *** */
+  .educacion p {
+    font-size: 2.5em;
+  }
 
-   .titulo-skills{
-       font-size: 4em;
-   }
+  body script {
+    display: none;
+  }
 
-   .contenedor-skills{
+  /* *** HABILIDADES *** */
+
+  .titulo-skills {
+    font-size: 4em;
+  }
+
+  .contenedor-skills {
     height: 100%;
     min-height: 380%;
-   }
+  }
 
-   .lista-izquierda li{
-       font-size: 3em;
-   }
-
-   .lista-derecha li{
+  .lista-izquierda li {
     font-size: 3em;
-    }
+  }
 
-    .linea-central{
+  .lista-derecha li {
+    font-size: 3em;
+  }
+
+  .linea-central {
     display: none;
-    }
+  }
 
-    .icon-tamaño{
-        width: 180px;
-        height: auto;
-    }
+  .icon-tamaño {
+    width: 180px;
+    height: auto;
+  }
 
-/* *** PROYECTOS *** */
+  /* *** PROYECTOS *** */
 
-.eye{
+  .eye {
     font-size: 3.5em;
-}
+  }
 
-.contenedor-trabajos{
+  .contenedor-trabajos {
     grid-template-columns: repeat(1, 1fr);
     height: auto;
-}
+  }
 
-.contenedor-trabajos .trabajos{
+  .contenedor-trabajos .trabajos {
     width: 900px;
     height: 700px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover
-}
+    background-size: cover;
+  }
 
-/* *** CONTACTOS *** */
+  .proyectoh3 {
+    font-size: 3em;
+  }
 
-.contacto-h2{
+  /* *** CONTACTOS *** */
+
+  .contacto-h2 {
     font-size: 2.5em;
-}
+  }
 
-.contenedor-contacto{
+  .contenedor-contacto {
     display: flex;
     flex-direction: column;
     font-size: 4em;
-}
+  }
 
-.contacto form input{
+  .desc p {
+    font-size: 3em;
+  }
+
+  .desc h3 {
+    font-size: 3em;
+  }
+  .desc a {
+    font-size: 3em;
+  }
+  .desc a i {
+    font-size: 2em;
+  }
+
+  .contacto form input {
     font-size: 1em;
-}
-
-.contacto form textarea{
+  }
+  .trabajo-y-descripcion {
+    flex-direction: column;
+  }
+  .contacto form textarea {
     font-size: 1em;
-}
+  }
 
-/* *** REDES *** */
+  /* *** REDES *** */
 
-.redes-sociales{
+  .redes-sociales {
     width: 700px;
     height: 180px;
-}
+  }
 
-span{
+  .redes-sociales span {
     width: 700px;
     height: 180px;
     font-size: 4em;
     padding-top: 50px;
-}
+  }
 
-.redes-sociales:hover span {
+  .redes-sociales:hover span {
     -webkit-transform: translateX(-700px);
-            transform: translateX(-700px)
-}
+    transform: translateX(-700px);
+  }
 
-.contenedor-redes .icon-2{
+  .contenedor-redes .icon-2 {
     font-size: 4.5em;
     padding: 25px;
-}
+  }
 
-footer {
+  footer {
     font-size: 2em;
-}
+  }
 
-/* *** TOP *** */
+  /* *** TOP *** */
 
-#goTop{
+  #goTop {
     font-size: 5em;
-}
-
-
+  }
 }

@@ -15,7 +15,7 @@
     <script src="scrollreveal.js"></script>
     <title>Franco De Paulo</title>
 </head>
-<body>
+<div>
     <header id="home">
 
         <div class="container-nav">
@@ -62,21 +62,29 @@
     </header>
     <!-- Paletas superiores -->
     <div class="contenedor-presentacion">
+        
         <div class="foto">
-            <div>
-                <img class="foto-mia" src="imagenes/perfilPortfolio2.png" alt="">
+            <span></span>
+            <span></span>
+            <div class="blocks">
+                 <img class="foto-mia" src="imagenes/perfilPortfolio2.png" alt="">
             </div>
             <div>
                 <h3 class="hola-nombre">HOLA! mi nombre es</h3>
             </div>
         </div>
-    <div class="presentacion">
-        <div class="contenedor-h1">
-            <h1 class="Franco">Franco</h1>
-            <h1 class="De">De</h1>
-            <h1 class="Paulo">Paulo</h1>
-        </div>
-            <div class="presentacion-descripcion"><h2 class="ux-ui">...desarrollador Front End</h2></div>
+        <div class="presentacion">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="contenedor-h1">
+                <h1 class="Franco">Franco</h1>
+                <h1 class="De">De</h1>
+                <h1 class="Paulo">Paulo</h1>
+            </div>
+                <div class="presentacion-descripcion"><h2 class="ux-ui">...desarrollador Front End</h2></div>
+            </div>
         </div>
     </div>
     <!-- Paletas inferiores -->
@@ -182,53 +190,119 @@
             <path fill="#F2ED54" fill-opacity="1" d="M0,288L1440,224L1440,320L0,320Z"></path>
         </svg>
         <div class="contenedor-trabajos">
-            <div>
-                <a href="https://github.com/frandepe/tareaPuedeNoPuede">
-                    <div class="trabajos trabajo1">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> CSS & JS</i></h3>
+            
+            <div class="trabajo-y-descripcion">
+                <div>
+                    <div id="tp1" class="trabajos trabajo1">
+                        <h3 class="proyectoh3">CSS & JS</h3>
                     </div>
-                </a>
-                <a href="https://miprimerappfmd.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                
+                    <a href="https://miprimerappfmd.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                </div>
+                <div class="desc desc1">
+                    <h3>Listado de usuarios</h3>
+                    <a href="https://github.com/frandepe/tareaPuedeNoPuede">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Agregado y renderización de usuarios en una lista </p>
+                    <p>Establecimiento de una condicion mediante un checkbox</p>
+                    <p>Validación de un usuario existente o no en la lista</p>
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/frandepe/app-weather">
-                    <div class="trabajos trabajo2">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> CSS & JS + API WEATHER</i></h3>
-                    </div>
-                </a>    
-                <a href="https://appclimafmd.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+
+            <div class="trabajo-y-descripcion">
+                <div class="desc desc2">
+                    <h3>Weather</h3>
+                    <a href="https://github.com/frandepe/app-weather">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Obtención de la posición del usuario mediante geolocalización</p>
+                    <p>Recuperación de los datos del clima mediante la API de weatherApp</p>
+                    <p>Renderización de la información</p>
+                </div>
+                <div>
+                        <div id="tp2" class="trabajos trabajo2">
+                            <h3 class="proyectoh3"> CSS & JS + API WEATHER</h3>
+                        </div>
+                    <a href="https://appclimafmd.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/frandepe/TMDB-API-search">
-                    <div class="trabajos trabajo3">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> SCSS & JS + API TMDB</i></h3>
+
+            <div class="trabajo-y-descripcion">
+                <div>
+                    <div id="tp3" class="trabajos trabajo3">
+                        <h3 class="proyectoh3"> SCSS & JS + API TMDB</h3>
                     </div>
-                </a>
-                <a href="https://pelistmd.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                    <a href="https://pelistmd.netlify.app/"><i class="eye fas fa-eye"></i></a>
+                </div> 
+                <div class="desc desc3">
+                    <h3>Peliculas</h3>
+                    <a href="https://github.com/frandepe/TMDB-API-search">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Recuperación de datos desde la API TMDB</p>
+                    <p>Renderización de peliculas en el DOM</p>
+                    <p>Filtrado de peliculas por nombre</p>
+                    <p>Filtrado de las mejores peliculas del año</p>
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/frandepe/ecommerce-restaurant">
-                    <div class="trabajos trabajo4">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> SCSS & JS + API TheMealDB</i></h3>
+
+            <div class="trabajo-y-descripcion">
+                <div class="desc desc4">
+                    <h3>Ecommerce</h3>
+                    <a href="https://github.com/frandepe/ecommerce-restaurant">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Diseño web para restaurante</p>
+                    <p>Recuperación de datos desde la API Themealdb</p>
+                    <p>Login y registro desde un backend de MongoDB</p>
+                    <p>Renderización de productos </p>
+                    <p>Filtrado de productos por nombre</p>
+                </div>
+                <div>
+                    <div id="tp4" class="trabajos trabajo4">
+                        <h3 class="proyectoh3"> SCSS & JS + API TheMealDB</h3>
                     </div>
-                </a>
-                <a href="https://ecommercerestoapp.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                
+                    <a href="https://ecommercerestoapp.netlify.app/"><i class="eye fas fa-eye"></i></a> 
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/frandepe/Reactf2p">
-                    <div class="trabajos trabajo5">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> ReactJs + Firebase</i></h3>
+
+            <div class="trabajo-y-descripcion">
+                <div>
+                    <div id="tp5" class="trabajos trabajo5">
+                        <h3 class="proyectoh3">ReactJs + Firebase</h3>
                     </div>
-                </a>
+                
                 <a href="https://react-f2p.web.app/games"><i class="eye fas fa-eye"></i></a> 
+                </div>
+                <div class="desc desc5">
+                    <h3>Games</h3>
+                    <a href="https://github.com/frandepe/Reactf2p">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Aplicación hecha con React.js</p>
+                    <p>Autenticación de usuario mediante Firebase</p>
+                    <p>Recuperación de datos desde la API Free To Play</p>
+                    <p>Manejo de llamadas con axios mediante instancias</p>
+                    <p>Manejo de estados</p>
+                    <p>Navegación por paginas y por id</p>
+                    <p>Renderizado de Video Juegos</p>
+                    <p>Busqueda por categoría y filtro por nombres</p>
+
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/frandepe/cryptoRedux">
-                    <div class="trabajos trabajo6">
-                        <h3 class="proyectoh3"><i class="fab fa-github-square"> ReactJs + Redux</i></h3>
+
+            <div class="trabajo-y-descripcion">
+                <div class="desc desc6">
+                    <h3>CryptoApp</h3>
+                    <a href="https://github.com/frandepe/cryptoRedux">>> Codigo en GitHub <i class="fab fa-github-square"></i></a>
+                    <p>Aplicación hecha con React.js</p>
+                    <p>Recuperación de datos desde la API CoinGecko</p>
+                    <p>Manejo de Redux</p>
+                    <p>Manejo de llamadas con axios mediante instancias</p>
+                    <p>Manejo de estados</p>
+                    <p>Navegación por id desde Outlets</p>
+                    <p>Paginación de datos</p>
+                    <p>Utilización de Bootstrap</p>
+                </div>
+                <div>
+                    <div id="tp6" class="trabajos trabajo6">
+                        <h3 class="proyectoh3">ReactJs + Redux</h3>
                     </div>
-                </a>
+               
                 <a href="https://cryptoapp-2e271.web.app/"><i class="eye fas fa-eye"></i></a> 
+                </div>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -241,7 +315,7 @@
         <div class="contenedor-contacto">
             <div class="contacto">
                 <form id="form" class="form" action="https://formspree.io/f/xjvjjwjp" method="POST">
-                    <p>
+                    <p class="form-p">
                         <label class="obligatorio" for="fullname">Nombre</label>
                         <input type="text" name="fullname" id="fullname" required>
                     </p>
@@ -306,5 +380,6 @@
     <script src="./index.js"></script>
     <script src="./scroll.js"></script> 
     <script src="./contacto.js"></script> 
+    <script src="./projects.js"></script> 
 </body>
 </html>
