@@ -3,7 +3,7 @@
 @media  screen and (max-width: 768px)
 @media  screen and (max-width: 360px) */
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   /* *** HEADER *** */
 
   .container-nav {
@@ -70,12 +70,14 @@
   .contenedor-presentacion {
     flex-direction: column;
     height: 100%;
+    position: relative;
   }
 
   .foto {
     transform: none;
     height: 100%;
     overflow: initial;
+    position: relative;
   }
 
   .foto span {
@@ -84,6 +86,7 @@
 
   .contenedor-presentacion h3 {
     font-size: 4em;
+    margin: 0;
   }
 
   .foto img {
@@ -92,9 +95,11 @@
   }
 
   .presentacion {
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    position: relative;
     transform: none;
     overflow: initial;
+    margin: 0;
   }
 
   .presentacion span {
@@ -113,9 +118,11 @@
 
   .contenedor-sobre-mi {
     flex-direction: column;
-    margin-top: 33%;
-    margin-bottom: 20%;
+    margin-top: 28.5%;
+    margin-bottom: 10%;
     height: 100%;
+    width: auto;
+    position: relative;
   }
 
   .sobre-mi {
@@ -123,6 +130,7 @@
     width: 100%;
     margin: 0;
     padding: 3%;
+    position: relative;
     height: 100%;
   }
 
@@ -140,6 +148,7 @@
     width: 100%;
     margin-top: 2%;
     padding: 3%;
+    position: relative;
     height: 100%;
   }
 
