@@ -65,6 +65,7 @@ gsap.from(".titulo-skills", {
   duration: 1.5,
   ease: "bounce.out",
   y: -300,
+  opacity: 0,
 });
 
 // let targets = [".iconhtml1", ".iconjavascript"];
@@ -100,7 +101,122 @@ gsap.from(".icon-scroll-rigth", {
     // end: "top 100px",
   },
   duration: 1,
-  x: -400,
+  x: 400,
+});
+
+gsap.from(".icono-star", {
+  duration: 1,
+  opacity: 0,
+  scale: 3,
+  stagger: {
+    each: 0.5,
+  },
+  scrollTrigger: {
+    trigger: ".icono-star",
+  },
+});
+
+let contactForm = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".contacto",
+    start: "center bottom",
+  },
+});
+
+contactForm
+  .from(".contacto-h2", {
+    x: 200,
+    opacity: 0,
+    duration: 1,
+  })
+  .from(".info-contacto", {
+    y: 300,
+    opacity: 0,
+    duration: 1,
+  })
+  .from(
+    ".btnSubmit",
+    {
+      x: -200,
+      opacity: 0,
+      duration: 1,
+    },
+    "-=1"
+  );
+
+gsap.from(".eye", {
+  duration: 1,
+  opacity: 0,
+  scale: 3,
+  stagger: {
+    each: 0.5,
+  },
+  scrollTrigger: {
+    trigger: ".eye",
+  },
+});
+
+gsap.from(".tr1", {
+  scrollTrigger: {
+    trigger: ".tr1",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: 250,
+});
+
+gsap.from(".tr2", {
+  scrollTrigger: {
+    trigger: ".tr2",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: -250,
+  delay: 0.5,
+});
+
+gsap.from(".tr3", {
+  scrollTrigger: {
+    trigger: ".tr3",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: 250,
+});
+
+gsap.from(".tr4", {
+  scrollTrigger: {
+    trigger: ".tr4",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: -250,
+  delay: 0.5,
+});
+
+gsap.from(".tr5", {
+  scrollTrigger: {
+    trigger: ".tr5",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: 250,
+});
+
+gsap.from(".tr6", {
+  scrollTrigger: {
+    trigger: ".tr6",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: -250,
+  delay: 0.5,
 });
 
 // let containers = gsap.utils.toArray(".lista-izquierda");
