@@ -125,7 +125,7 @@ let contactForm = gsap.timeline({
 
 contactForm
   .from(".contacto-h2", {
-    x: 200,
+    x: -200,
     opacity: 0,
     duration: 1,
   })
