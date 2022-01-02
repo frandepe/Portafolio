@@ -10,7 +10,7 @@ gsap.from(".presentacion", {
   scrollTrigger: ".presentacion",
   duration: 2.5,
   ease: "expo.out",
-  x: 500,
+  x: 300,
   scrollTrigger: ".presentacion",
 });
 
@@ -18,7 +18,7 @@ gsap.from(".foto", {
   scrollTrigger: ".foto",
   duration: 2.5,
   ease: "expo.out",
-  x: -500,
+  x: -300,
   scrollTrigger: ".foto",
 });
 
@@ -84,7 +84,7 @@ gsap.from(".icon-scroll-left", {
     // end: "top 100px",
   },
   duration: 1,
-  x: -400,
+  x: -200,
 });
 
 gsap.from(".icon-scroll-rigth", {
@@ -101,7 +101,7 @@ gsap.from(".icon-scroll-rigth", {
     // end: "top 100px",
   },
   duration: 1,
-  x: 400,
+  x: 200,
 });
 
 gsap.from(".icono-star", {
@@ -163,7 +163,7 @@ gsap.from(".tr1", {
   },
   duration: 1,
   opacity: 0,
-  x: 250,
+  x: 200,
 });
 
 gsap.from(".tr2", {
@@ -173,7 +173,7 @@ gsap.from(".tr2", {
   },
   duration: 1,
   opacity: 0,
-  x: -250,
+  x: -200,
   delay: 0.5,
 });
 
@@ -184,7 +184,7 @@ gsap.from(".tr3", {
   },
   duration: 1,
   opacity: 0,
-  x: 250,
+  x: 200,
 });
 
 gsap.from(".tr4", {
@@ -194,7 +194,7 @@ gsap.from(".tr4", {
   },
   duration: 1,
   opacity: 0,
-  x: -250,
+  x: -200,
   delay: 0.5,
 });
 
@@ -205,7 +205,7 @@ gsap.from(".tr5", {
   },
   duration: 1,
   opacity: 0,
-  x: 250,
+  x: 200,
 });
 
 gsap.from(".tr6", {
@@ -215,7 +215,7 @@ gsap.from(".tr6", {
   },
   duration: 1,
   opacity: 0,
-  x: -250,
+  x: -200,
   delay: 0.5,
 });
 
