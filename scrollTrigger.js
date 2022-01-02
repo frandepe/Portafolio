@@ -163,7 +163,7 @@ gsap.from(".tr1", {
   },
   duration: 1,
   opacity: 0,
-  x: 100,
+  //x: 100,
 });
 
 gsap.from(".tr2", {
@@ -173,7 +173,7 @@ gsap.from(".tr2", {
   },
   duration: 1,
   opacity: 0,
-  x: -100,
+  // x: -100,
   delay: 0.5,
 });
 
@@ -184,7 +184,7 @@ gsap.from(".tr3", {
   },
   duration: 1,
   opacity: 0,
-  x: 100,
+  //x: 100,
 });
 
 gsap.from(".tr4", {
@@ -194,7 +194,7 @@ gsap.from(".tr4", {
   },
   duration: 1,
   opacity: 0,
-  x: -100,
+  //x: -100,
   delay: 0.5,
 });
 
@@ -205,7 +205,7 @@ gsap.from(".tr5", {
   },
   duration: 1,
   opacity: 0,
-  x: 100,
+  //x: 100,
 });
 
 gsap.from(".tr6", {
@@ -215,7 +215,7 @@ gsap.from(".tr6", {
   },
   duration: 1,
   opacity: 0,
-  x: -100,
+  //x: -100,
   delay: 0.5,
 });
 
