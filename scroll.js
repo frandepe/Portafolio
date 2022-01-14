@@ -1,6 +1,6 @@
 window.sr = ScrollReveal();
 
-const scrollResponsive = matchMedia("(max-width: 375px)");
+const scrollResponsive = matchMedia("(max-width: 768px)");
 const cambiarMQ = (mediaQ) => {
   if (mediaQ.matches === false) {
     sr.reveal(".container-nav", {
