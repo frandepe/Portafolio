@@ -217,6 +217,11 @@
     font-size: 3em;
   }
 
+  .contenedor-trabajos-h4 {
+    font-size: 3em;
+    width: 800px;
+  }
+
   /* *** CONTACTOS *** */
 
   .contacto-h2 {
