@@ -231,6 +231,16 @@ const cambiarMQ = (mediaQ) => {
       opacity: 0,
       x: 200,
     });
+
+    gsap.from(".tr8", {
+      scrollTrigger: {
+        trigger: ".tr8",
+        start: "20px 80%",
+      },
+      duration: 1,
+      opacity: 0,
+      x: 200,
+    });
   }
 };
 

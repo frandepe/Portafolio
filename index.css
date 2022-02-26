@@ -701,6 +701,15 @@ a {
   cursor: pointer;
 }
 
+.trabajo8 {
+  background: url(imagenes/proyecto8.jpg);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transition: all 1s;
+  cursor: pointer;
+}
+
 .trabajo1:hover {
   filter: none;
   transition: all 1s;
@@ -732,6 +741,11 @@ a {
 }
 
 .trabajo7:hover {
+  filter: none;
+  transition: all 1s;
+}
+
+.trabajo8:hover {
   filter: none;
   transition: all 1s;
 }

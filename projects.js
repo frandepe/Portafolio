@@ -82,3 +82,14 @@ tp7.addEventListener("click", () => {
     desc7.style.display = "flex";
   }
 });
+
+const tp8 = document.getElementById("tp8");
+const desc8 = document.querySelector(".desc8");
+
+tp8.addEventListener("click", () => {
+  if (desc8.style.display === "flex") {
+    desc8.style.display = "none";
+  } else {
+    desc8.style.display = "flex";
+  }
+});
