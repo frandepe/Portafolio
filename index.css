@@ -118,16 +118,16 @@ a {
 
 @keyframes animacionP {
   0% {
-    content: "Web developer";
+    content: "Creativity";
   }
   33% {
-    content: "Front end";
+    content: "Flexibility";
   }
   66% {
-    content: "Back end";
+    content: "Proactivity";
   }
   100% {
-    content: "Web developer";
+    content: "Creativity";
   }
 }
 
@@ -568,7 +568,12 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  background-color: var(--primary-yellow);
+  background: radial-gradient(
+    farthest-side,
+    rgba(248, 253, 168, 0.8),
+    rgb(242, 237, 84)
+  );
+
   width: 100%;
   height: auto;
   padding-top: 3%;
@@ -576,21 +581,21 @@ a {
 .trabajo-y-descripcion {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .desc {
   flex-direction: column;
   display: none;
-  margin: 10px;
+  margin: 0 5px 5px 5px;
   padding: 10px;
   color: var(--fifth-gray);
   background: var(--tertiary-black);
   box-shadow: 0 8px 32px 0 rgba(253, 253, 253, 0.37);
-  backdrop-filter: blur(6.5px);
-  -webkit-backdrop-filter: blur(6.5px);
-  border-radius: 5px;
+
   width: 100%;
 }
+
 .contenedor-trabajos-h4 {
   position: absolute;
   left: 37%;
@@ -600,16 +605,17 @@ a {
   color: var(--fifth-gray);
   transition: 0.2s;
   margin-bottom: 10px;
-  margin-top: 10px;
   text-align: center;
 }
-.desc a i {
+.desc i {
+  color: var(--tertiary-black);
   font-size: 1.5em;
-  transition: 0.5s;
+  transition: 0.4s;
 }
+
 .desc a:hover {
   text-shadow: 2px 2px 2px rgba(217, 233, 0, 0.6);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .desc h3 {
@@ -626,128 +632,48 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg)
-    scale(0.9, 0.9);
-  border-radius: 5px;
-  border: 5px solid #e6e6e6;
   box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
-  transition: 0.1s ease-in-out transform;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transition: all 1s;
+  cursor: pointer;
 }
 
 .trabajos:hover {
-  transform: translate3d(0px, 0px, -250px);
+  filter: none;
 }
 
 .trabajo1 {
   background: url(imagenes/proyecto1.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo2 {
   background: url(imagenes/proyecto22.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo3 {
   background: url(imagenes/proyecto3.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo4 {
   background: url(imagenes/proyecto4.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo5 {
   background: url(imagenes/proyecto5.png);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo6 {
   background: url(imagenes/proyecto6.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo7 {
   background: url(imagenes/proyecto7.png);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
 }
 
 .trabajo8 {
   background: url(imagenes/proyecto8.jpg);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  transition: all 1s;
-  cursor: pointer;
-}
-
-.trabajo1:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo2:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo3:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo4:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo5:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo6:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo7:hover {
-  filter: none;
-  transition: all 1s;
-}
-
-.trabajo8:hover {
-  filter: none;
-  transition: all 1s;
 }
 
 .proyectoh3 {
@@ -769,20 +695,7 @@ a {
 
 .proyectoh3:hover {
   opacity: 1;
-  transition: all 500ms ease-out;
   padding-top: 10%;
-}
-
-.eye {
-  color: #191a1e;
-  display: flex;
-  text-align: center;
-  width: 100%;
-  font-size: 1.5em;
-}
-
-.vacio {
-  color: grey;
 }
 
 /* ***** SECCION DE CONTACTOS ***** */

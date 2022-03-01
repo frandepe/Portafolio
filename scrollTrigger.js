@@ -1,11 +1,3 @@
-console.log(gsap.config());
-
-// gsap.to(".foto", {
-//   duration: 3,
-//   x: 600,
-//   delay: 1,
-// });
-
 const scrollResponsive = matchMedia("(max-width: 600px)");
 const cambiarMQ = (mediaQ) => {
   if (mediaQ.matches === false) {
@@ -147,18 +139,6 @@ const cambiarMQ = (mediaQ) => {
         "-=1"
       );
 
-    gsap.from(".eye", {
-      duration: 1,
-      opacity: 0,
-      scale: 3,
-      stagger: {
-        each: 0.5,
-      },
-      scrollTrigger: {
-        trigger: ".eye",
-      },
-    });
-
     gsap.from(".tr1", {
       scrollTrigger: {
         trigger: ".tr1",
@@ -239,7 +219,7 @@ const cambiarMQ = (mediaQ) => {
       },
       duration: 1,
       opacity: 0,
-      x: 200,
+      x: -200,
     });
   }
 };

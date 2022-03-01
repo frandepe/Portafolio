@@ -20,6 +20,9 @@ async function enviarForm(e) {
       this.reset();
       mensajeDeEnvio.innerText =
         "Thank you for contacting me, I will respond as soon as possible :)";
+      setTimeout(() => {
+        mensajeDeEnvio.innerText = null;
+      }, 10000);
     }
   } catch (error) {
     console.log("error", error);
