@@ -89,7 +89,7 @@ a {
 
 .icon-cafe {
   font-size: 1em;
-  color: var(--primary-yellow);
+  color: var(--secondary-yellow);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +150,7 @@ a {
     rgba(25, 26, 30, 1) 1%,
     rgba(165, 168, 178, 0.48783263305322133) 26%,
     rgba(30, 30, 25, 1) 49%,
-    rgba(242, 237, 84, 1) 50%,
+    rgba(253, 217, 0, 1) 50%,
     rgba(165, 168, 178, 0.48783263305322133) 75%,
     rgba(25, 26, 30, 1) 99%
   );
@@ -163,6 +163,10 @@ a {
 .home-izquierda h3 {
   font-size: 2em;
   text-align: center;
+}
+.home-izquierda span {
+  color: var(--secondary-yellow);
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
 }
 .home-derecha {
   text-align: center;
@@ -342,13 +346,13 @@ a {
   background: var(--tertiary-black); /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #f2ed54,
-    #191a1e
+    var(--secondary-yellow),
+    var(--tertiary-black)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #f2ed54,
-    #191a1e
+    var(--secondary-yellow),
+    var(--tertiary-black)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -415,7 +419,7 @@ a {
   background: radial-gradient(
     farthest-side,
     rgba(248, 253, 168, 0.8),
-    rgb(242, 237, 84)
+    var(--secondary-yellow)
   );
 
   width: 100%;
@@ -443,6 +447,10 @@ a {
 .contenedor-trabajos-h4 {
   position: absolute;
   left: 37%;
+}
+
+.desc span {
+  text-decoration: underline;
 }
 
 .desc a {
@@ -583,13 +591,13 @@ a {
   padding: 0.7em;
   border: none;
   background: none;
-  border-bottom: 1px solid var(--primary-yellow);
+  border-bottom: 1px solid var(--secondary-yellow);
   outline: none;
   color: var(--fifth-gray);
 }
 
 .contacto form button {
-  background: #f2ed54;
+  background: var(--secondary-yellow);
   border: 0;
   padding: 1em;
   color: #191a1e;
@@ -622,7 +630,7 @@ a {
 .contacto form button:hover,
 .contacto form button:focus {
   background: var(--tertiary-black);
-  color: var(--primary-yellow);
+  color: var(--secondary-yellow);
   transition: 0.5s ease-out;
   outline: 0;
   cursor: pointer;
@@ -630,13 +638,13 @@ a {
 
 .opcional::after {
   content: " (optional)";
-  color: #d6d48b;
+  color: var(--secondary-yellow);
   font-size: 0.8em;
 }
 
 .obligatorio::after {
   content: " *";
-  color: #d6d48b;
+  color: var(--secondary-yellow);
 }
 
 .mensajeEnvio {
