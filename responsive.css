@@ -114,56 +114,55 @@
     font-size: 2.5em;
   }
 
-  /* *** PRESENTACION PALETAS INFERIORES *** */
+  /* *** HOME *** */
 
-  .contenedor-sobre-mi {
+  .container-home {
+    font-size: 1.5em;
+  }
+
+  .home-derecha h3 {
+    width: 500px;
+  }
+  .home-izquierda h3 {
+    width: 500px;
+  }
+
+  .redes-sociales {
+    width: 500px;
+    height: 140px;
+  }
+
+  .redes-sociales span {
+    width: 500px;
+    height: 140px;
+    font-size: 2em;
+    padding-top: 30px;
+  }
+  .home-derecha button {
+    width: 500px;
+    height: 140px;
+    font-size: 2em;
+  }
+
+  /* *** ABOUT *** */
+
+  .container-about-me {
     flex-direction: column;
-    margin-top: 28.5%;
-    margin-bottom: 10%;
-    height: 100%;
-    width: auto;
-    position: relative;
+    align-items: center;
   }
 
-  .sobre-mi {
-    transform: none;
-    width: 100%;
-    margin: 0;
-    padding: 3%;
-    position: relative;
-    height: 100%;
+  .box {
+    width: 80%;
+    height: 700px;
+    margin: 5%;
   }
 
-  .sobre-mi h3 {
-    margin-top: 2%;
-    margin-bottom: 2%;
+  .box .text div h3 {
     font-size: 3em;
+    margin-bottom: 5px;
   }
-
-  .sobre-mi p {
-    font-size: 2.5em;
-  }
-  .educacion {
-    transform: none;
-    width: 100%;
-    margin-top: 2%;
-    padding: 3%;
-    position: relative;
-    height: 100%;
-  }
-
-  .educacion h3 {
-    margin-top: 2%;
-    margin-bottom: 2%;
+  .box .text div p {
     font-size: 3em;
-  }
-
-  .educacion p {
-    font-size: 2.5em;
-  }
-
-  body script {
-    display: none;
   }
 
   /* *** HABILIDADES *** */
@@ -260,27 +259,10 @@
 
   /* *** REDES *** */
 
-  /* .redes-sociales {
-    width: 700px;
-    height: 180px;
-  } */
-
-  /* .redes-sociales span {
-    width: 700px;
-    height: 180px;
-    font-size: 4em;
-    padding-top: 50px;
-  } */
-
   .redes-sociales:hover span {
     -webkit-transform: translateX(-700px);
     transform: translateX(-700px);
   }
-
-  /* .contenedor-redes .icon-2 {
-    font-size: 4.5em;
-    padding: 25px;
-  } */
 
   footer {
     font-size: 2em;

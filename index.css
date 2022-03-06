@@ -156,7 +156,8 @@ a {
   );
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 5%;
 }
 
 .home-izquierda h3 {
@@ -178,7 +179,6 @@ a {
   box-shadow: 0 8px 32px 0 rgba(12, 13, 27, 0.37);
   border-radius: 80px;
   background: transparent;
-  /* border: 1px solid var(--tertiary-black); */
   border: none;
   cursor: pointer;
   transition: background 0.3s linear;
@@ -288,11 +288,11 @@ a {
   box-sizing: border-box;
 }
 .box .text div h3 {
-  font-size: 30px;
+  font-size: 1.5em;
   margin-bottom: 5px;
 }
 .box .text div p {
-  font-size: 15px;
+  font-size: 1em;
 }
 
 /* ***** SECCION DE HABILIDADES ***** */
