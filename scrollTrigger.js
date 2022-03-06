@@ -1,55 +1,55 @@
 const scrollResponsive = matchMedia("(max-width: 600px)");
 const cambiarMQ = (mediaQ) => {
   if (mediaQ.matches === false) {
-    gsap.from(".presentacion", {
-      scrollTrigger: ".presentacion",
-      duration: 2.5,
-      ease: "expo.out",
-      x: 300,
-      scrollTrigger: ".presentacion",
-    });
-
-    gsap.from(".foto", {
-      scrollTrigger: ".foto",
-      duration: 2.5,
-      ease: "expo.out",
-      x: -300,
-      scrollTrigger: ".foto",
-    });
-
-    let tl = gsap.timeline();
-    tl.from(".hola-nombre", {
+    gsap.from(".home-izquierda", {
+      scrollTrigger: ".home-izquierda",
       duration: 2,
-      y: -200,
-      scrollTrigger: ".hola-nombre",
+      ease: "expo.out",
+      y: 300,
+      scrollTrigger: ".home-izquierda",
     });
 
-    tl.from(".nombre", {
-      duration: 0.3,
-      y: -200,
-      scale: 0,
-      stagger: 0.5,
-      scrollTrigger: ".nombre",
+    gsap.from(".home-derecha", {
+      scrollTrigger: ".home-derecha",
+      duration: 2,
+      ease: "expo.out",
+      y: 300,
+      scrollTrigger: ".home-derecha",
     });
 
-    tl.from(".presentacion-descripcion", {
-      duration: 0.3,
-      x: -200,
-      scale: 0,
-      scrollTrigger: ".presentacion-descripcion",
-    });
+    // let tl = gsap.timeline();
+    // tl.from(".hola-nombre", {
+    //   duration: 2,
+    //   y: -200,
+    //   scrollTrigger: ".hola-nombre",
+    // });
 
-    tl.from(".sobre-mi", {
-      duration: 0.3,
-      y: 200,
-      scale: 0,
-    });
+    // tl.from(".nombre", {
+    //   duration: 0.3,
+    //   y: -200,
+    //   scale: 0,
+    //   stagger: 0.5,
+    //   scrollTrigger: ".nombre",
+    // });
 
-    tl.from(".educacion", {
-      duration: 0.3,
-      y: 200,
-      scale: 0,
-    });
+    // tl.from(".presentacion-descripcion", {
+    //   duration: 0.3,
+    //   x: -200,
+    //   scale: 0,
+    //   scrollTrigger: ".presentacion-descripcion",
+    // });
+
+    // tl.from(".sobre-mi", {
+    //   duration: 0.3,
+    //   y: 200,
+    //   scale: 0,
+    // });
+
+    // tl.from(".educacion", {
+    //   duration: 0.3,
+    //   y: 200,
+    //   scale: 0,
+    // });
 
     gsap.from(".titulo-skills", {
       scrollTrigger: {
@@ -58,12 +58,10 @@ const cambiarMQ = (mediaQ) => {
         opacity: 1,
       },
       duration: 1.5,
-      ease: "bounce.out",
+      ease: "expo.out",
       y: -300,
       opacity: 0,
     });
-
-    // let targets = [".iconhtml1", ".iconjavascript"];
 
     gsap.from(".icon-scroll-left", {
       scale: 0.1,

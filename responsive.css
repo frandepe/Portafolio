@@ -260,27 +260,27 @@
 
   /* *** REDES *** */
 
-  .redes-sociales {
+  /* .redes-sociales {
     width: 700px;
     height: 180px;
-  }
+  } */
 
-  .redes-sociales span {
+  /* .redes-sociales span {
     width: 700px;
     height: 180px;
     font-size: 4em;
     padding-top: 50px;
-  }
+  } */
 
   .redes-sociales:hover span {
     -webkit-transform: translateX(-700px);
     transform: translateX(-700px);
   }
 
-  .contenedor-redes .icon-2 {
+  /* .contenedor-redes .icon-2 {
     font-size: 4.5em;
     padding: 25px;
-  }
+  } */
 
   footer {
     font-size: 2em;
