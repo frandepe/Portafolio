@@ -219,6 +219,16 @@ gsap.from(".tr8", {
   opacity: 0,
   x: -200,
 });
+
+gsap.from(".tr9", {
+  scrollTrigger: {
+    trigger: ".tr9",
+    start: "20px 80%",
+  },
+  duration: 1,
+  opacity: 0,
+  x: 200,
+});
 // }
 // };
 
