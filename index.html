@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navText.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
     
@@ -22,7 +23,7 @@
 </head>
 <div>
     <header id="home">
-
+      
         <div class="container-nav">
             <div class="nav-franco">
                 <img class="logoF" src="imagenes/logo.png" alt="">
@@ -31,33 +32,29 @@
                 <i class="fas fa-coffee cafecito"></i>
             </div>
             <div class="nav-animado">
-                <p></p>
+                <div class="knowledge"></div>
             </div>
         </div> 
 
-        <nav>
-            <ul class="lista-navegacion">
-
-                <li>
+        <button type="button" class="ham">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav class="lista-navegacion">
+           
                     <a class="home-li" href="#home">HOME</a>
-                </li>
-                <li>
+                
                     <a href="#sobre-mi">ABOUT ME</a>
-                </li>
-                <li>
+               
                     <a href="#habilidades">SKILLS</a>
-                </li>
-                <li>
+                
                     <a href="#proyectos">PROJECTS</a>
-                </li>
-                <li>
+               
                     <a href="#contacto">CONTACT</a>
-                </li>
-
-            </ul>
-            <button type="button" class="ham">
-                <i class="fas fa-bars"></i>
-            </button>
+                
+                <div class="animation start-home"></div>
+        
+         
 
         </nav>
     <!-- TOP -->
@@ -68,7 +65,11 @@
             
           
             <div class="container-info-home">
+                
                 <div class="home-izquierda">
+                    <!-- <div class="content-area">
+                        <a href="https://thatafro.netlify.app/" target="_blank"><div class="knowledge"></div></a>
+                    </div> -->
                     <h3>Hi, my name is <span>Franco De Paulo</span></h3>
                     <h3>I´m front-end developer</h3>
     <div>
@@ -373,7 +374,7 @@
                         <h3 class="proyectoh3">ReactJs</h3>
                     </div>
                 </div>
-               
+              
                 <div class="desc desc9">
                     <h3>Alkemy acceleration</h3>
                     <a href="https://github.com/frandepe/OT161-React-client">>> Code on GitHub <i class="fab fa-github-square"></i></a>
@@ -458,5 +459,6 @@
 <!-- <script src="./scroll.js"></script>  -->
 <script src="./contacto.js"></script> 
 <script src="./projects.js"></script> 
+<script src="./navText.js"></script> 
 </body>
 </html>
