@@ -198,64 +198,85 @@ gsap.from(".profile-card__img", {
   opacity: 0,
 });
 
-let contactForm = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".profile-card-social",
-    start: "center bottom",
-  },
-});
+// let contactForm = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".profile-card-social",
+//     start: "center bottom",
+//   },
+// });
 
-contactForm
-  .from(".facebook", {
-    scrollTrigger: {
-      trigger: ".facebook",
-      anticipatePin: 1,
-      opacity: 1,
-    },
-    duration: 0.3,
-    opacity: 0,
-    delay: 0.6,
-  })
-  .from(".instagram", {
-    scrollTrigger: {
-      trigger: ".instagram",
-      anticipatePin: 1,
-      opacity: 1,
-    },
-    duration: 0.3,
-    opacity: 0,
-    delay: 0.5,
-  })
-  .from(".linkedin", {
-    scrollTrigger: {
-      trigger: ".linkedin",
-      anticipatePin: 1,
-      opacity: 1,
-    },
-    duration: 0.3,
-    opacity: 0,
-    delay: 0.4,
-  })
-  .from(".github", {
-    scrollTrigger: {
-      trigger: ".github",
-      anticipatePin: 1,
-      opacity: 1,
-    },
-    duration: 0.3,
-    opacity: 0,
-    delay: 0.3,
-  })
-  .from(".twitter", {
-    scrollTrigger: {
-      trigger: ".twitter",
-      anticipatePin: 1,
-      opacity: 1,
-    },
-    duration: 0.3,
-    opacity: 0,
-    delay: 0.2,
-  });
+// contactForm
+//   .from(".facebook", {
+//     scrollTrigger: {
+//       trigger: ".facebook",
+//       anticipatePin: 1,
+//       opacity: 1,
+//     },
+//     duration: 0.3,
+//     opacity: 0,
+//   })
+//   .from(".instagram", {
+//     scrollTrigger: {
+//       trigger: ".instagram",
+//       anticipatePin: 1,
+//       opacity: 1,
+//     },
+//     duration: 0.3,
+//     opacity: 0,
+//   })
+//   .from(".linkedin", {
+//     scrollTrigger: {
+//       trigger: ".linkedin",
+//       anticipatePin: 1,
+//       opacity: 1,
+//     },
+//     duration: 0.3,
+//     opacity: 0,
+//   })
+//   .from(".github", {
+//     scrollTrigger: {
+//       trigger: ".github",
+//       anticipatePin: 1,
+//       opacity: 1,
+//     },
+//     duration: 0.3,
+//     opacity: 0,
+//   })
+//   .from(".twitter", {
+//     scrollTrigger: {
+//       trigger: ".twitter",
+//       anticipatePin: 1,
+//       opacity: 1,
+//     },
+//     duration: 0.3,
+//     opacity: 0,
+//   });
+
+gsap.from(".facebook", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.1,
+});
+gsap.from(".instagram", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.2,
+});
+gsap.from(".linkedin", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.3,
+});
+gsap.from(".github", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.4,
+});
+gsap.from(".twitter", {
+  opacity: 0,
+  duration: 1,
+  delay: 0.5,
+});
 
 // }
 // };
