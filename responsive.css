@@ -153,10 +153,11 @@
     font-size: 2em;
     padding-top: 30px;
   }
-  .home-derecha button {
-    width: 500px;
-    height: 140px;
-    font-size: 2em;
+
+  .btm-hire-me {
+    font-size: 1.5em;
+    width: 250px;
+    height: auto;
   }
 
   /* *** ABOUT *** */
@@ -164,27 +165,24 @@
   .container-about-me {
     flex-direction: column;
     align-items: center;
+    height: 1400px;
+    padding: 0;
   }
 
   .box {
     width: 80%;
-    height: 700px;
-    margin: 5%;
+    height: 100%;
+    margin-top: 10%;
   }
 
   .box .text div h3 {
     font-size: 3em;
-    margin-bottom: 5px;
   }
   .box .text div p {
     font-size: 3em;
   }
 
   /* *** HABILIDADES *** */
-
-  .titulo-skills {
-    font-size: 4em;
-  }
 
   .contenedor-skills {
     height: 100%;
@@ -208,11 +206,45 @@
     height: auto;
   }
 
-  /* *** PROYECTOS *** */
-
-  .eye {
-    font-size: 3.5em;
+  /* *** NUEVOS PROYECTOS *** */
+  .timeline {
+    flex-direction: column;
   }
+  .timeline:hover .tl-item {
+    width: 100%;
+  }
+  .tl-item {
+    width: 100%;
+  }
+
+  .tl-year p,
+  .tl-content h1,
+  .tl-p p,
+  .href-code a {
+    font-size: 3em;
+  }
+
+  .tl-p p {
+    line-height: 45px;
+  }
+
+  .tl-year {
+    top: 20%;
+  }
+  .tl-content {
+    top: 30%;
+  }
+  /* 
+
+  
+
+  
+
+  .tl-item:hover {
+    display: none;
+  } */
+
+  /* *** PROYECTOS *** */
 
   .contenedor-trabajos {
     grid-template-columns: repeat(1, 1fr);
@@ -234,6 +266,16 @@
   .contenedor-trabajos-h4 {
     font-size: 3em;
     width: 800px;
+  }
+
+  /* *** NUEVO CONTACTOS *** */
+
+  .wrapper {
+    font-size: 2.5em;
+  }
+
+  .profile-card {
+    max-width: 80%;
   }
 
   /* *** CONTACTOS *** */
@@ -272,20 +314,15 @@
     font-size: 1em;
   }
 
-  /* *** REDES *** */
-
-  .redes-sociales:hover span {
-    -webkit-transform: translateX(-700px);
-    transform: translateX(-700px);
-  }
-
-  footer {
-    font-size: 2em;
-  }
-
   /* *** TOP *** */
 
   #goTop {
     font-size: 5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    font-size: 3.5em;
   }
 }
