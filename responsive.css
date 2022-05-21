@@ -234,15 +234,6 @@
   .tl-content {
     top: 30%;
   }
-  /* 
-
-  
-
-  
-
-  .tl-item:hover {
-    display: none;
-  } */
 
   /* *** PROYECTOS *** */
 
@@ -278,51 +269,78 @@
     max-width: 80%;
   }
 
-  /* *** CONTACTOS *** */
-
-  .contacto-h2 {
-    font-size: 2.5em;
+  .profile-card-social__item {
+    width: 80px;
+    height: 80px;
   }
 
-  .contenedor-contacto {
-    display: flex;
-    flex-direction: column;
-    font-size: 4em;
+  .profile-card-form {
+    margin-top: -900px;
+
+    width: 100%;
   }
 
-  .desc p {
-    font-size: 3em;
+  .input-container {
+    height: 100px;
+    width: 100%;
   }
 
-  .desc h3 {
-    font-size: 3em;
-  }
-  .desc a {
-    font-size: 3em;
-  }
-  .desc a i {
-    font-size: 2em;
+  .cut-short {
+    width: 100px;
   }
 
-  .contacto form input {
-    font-size: 1em;
-  }
-  .trabajo-y-descripcion {
-    flex-direction: column;
-  }
-  .contacto form textarea {
-    font-size: 1em;
+  .cut {
+    width: 130px;
   }
 
+  .text-area-input {
+    margin-top: 60px;
+    height: 800px !important;
+  }
   /* *** TOP *** */
 
   #goTop {
     font-size: 5em;
   }
+
+  /* *** FOOTER *** */
+  footer h3 {
+    font-size: 3em;
+  }
 }
 
 @media (max-width: 500px) {
   .wrapper {
-    font-size: 3.5em;
+    font-size: 3.9em;
+    line-height: 120px;
+    padding-bottom: 100px;
+  }
+
+  .profile-card-social__item {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-card-form {
+    margin-top: -1200px;
+  }
+  .input-container {
+    height: 200px;
+  }
+  .cut-short {
+    width: 140px !important;
+  }
+
+  .cut {
+    width: 200px;
+  }
+
+  .ic2 {
+    margin-top: 70px;
+  }
+
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(16px);
   }
 }

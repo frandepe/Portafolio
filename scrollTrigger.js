@@ -1,6 +1,21 @@
 // const scrollResponsive = matchMedia("(max-width: 600px)");
 // const cambiarMQ = (mediaQ) => {
 //   if (mediaQ.matches === false) {
+
+/* *** HOME *** */
+
+gsap.from(".home-izquierda", {
+  scrollTrigger: {
+    trigger: ".home-izquierda",
+    anticipatePin: 1,
+    opacity: 1,
+  },
+  duration: 1.5,
+  ease: "expo.out",
+  x: -200,
+  opacity: 0,
+});
+
 gsap.from(".box", {
   scrollTrigger: ".box",
   duration: 2,
@@ -8,48 +23,6 @@ gsap.from(".box", {
   y: 300,
   scrollTrigger: ".box",
 });
-
-// gsap.from(".home-derecha", {
-//   scrollTrigger: ".home-derecha",
-//   duration: 2,
-//   ease: "expo.out",
-//   y: 300,
-//   scrollTrigger: ".home-derecha",
-// });
-
-// let tl = gsap.timeline();
-// tl.from(".hola-nombre", {
-//   duration: 2,
-//   y: -200,
-//   scrollTrigger: ".hola-nombre",
-// });
-
-// tl.from(".nombre", {
-//   duration: 0.3,
-//   y: -200,
-//   scale: 0,
-//   stagger: 0.5,
-//   scrollTrigger: ".nombre",
-// });
-
-// tl.from(".presentacion-descripcion", {
-//   duration: 0.3,
-//   x: -200,
-//   scale: 0,
-//   scrollTrigger: ".presentacion-descripcion",
-// });
-
-// tl.from(".sobre-mi", {
-//   duration: 0.3,
-//   y: 200,
-//   scale: 0,
-// });
-
-// tl.from(".educacion", {
-//   duration: 0.3,
-//   y: 200,
-//   scale: 0,
-// });
 
 gsap.from(".titulo-skills", {
   scrollTrigger: {
@@ -109,38 +82,11 @@ gsap.from(".icono-star", {
   },
 });
 
-let contactForm = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".contacto",
-    start: "center bottom",
-  },
-});
-
-contactForm
-  .from(".contacto-h2", {
-    x: -200,
-    opacity: 0,
-    duration: 1,
-  })
-  .from(".info-contacto", {
-    y: 300,
-    opacity: 0,
-    duration: 1,
-  })
-  .from(
-    ".btnSubmit",
-    {
-      x: -200,
-      opacity: 0,
-      duration: 1,
-    },
-    "-=1"
-  );
-
 gsap.from(".tr1", {
   scrollTrigger: {
     trigger: ".tr1",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -151,6 +97,7 @@ gsap.from(".tr2", {
   scrollTrigger: {
     trigger: ".tr2",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -162,6 +109,7 @@ gsap.from(".tr3", {
   scrollTrigger: {
     trigger: ".tr3",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -172,6 +120,7 @@ gsap.from(".tr4", {
   scrollTrigger: {
     trigger: ".tr4",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -183,6 +132,7 @@ gsap.from(".tr5", {
   scrollTrigger: {
     trigger: ".tr5",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -193,6 +143,7 @@ gsap.from(".tr6", {
   scrollTrigger: {
     trigger: ".tr6",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -204,6 +155,7 @@ gsap.from(".tr7", {
   scrollTrigger: {
     trigger: ".tr7",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -214,6 +166,7 @@ gsap.from(".tr8", {
   scrollTrigger: {
     trigger: ".tr8",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
@@ -224,11 +177,86 @@ gsap.from(".tr9", {
   scrollTrigger: {
     trigger: ".tr9",
     start: "20px 80%",
+    opacity: 1,
   },
   duration: 1,
   opacity: 0,
   x: 200,
 });
+
+/* *** CONTACT *** */
+
+gsap.from(".profile-card__img", {
+  scrollTrigger: {
+    trigger: ".profile-card__img",
+    anticipatePin: 1,
+    opacity: 1,
+  },
+  duration: 1.5,
+  ease: "expo.out",
+  y: -200,
+  opacity: 0,
+});
+
+let contactForm = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".profile-card-social",
+    start: "center bottom",
+  },
+});
+
+contactForm
+  .from(".facebook", {
+    scrollTrigger: {
+      trigger: ".facebook",
+      anticipatePin: 1,
+      opacity: 1,
+    },
+    duration: 0.3,
+    opacity: 0,
+    delay: 0.6,
+  })
+  .from(".instagram", {
+    scrollTrigger: {
+      trigger: ".instagram",
+      anticipatePin: 1,
+      opacity: 1,
+    },
+    duration: 0.3,
+    opacity: 0,
+    delay: 0.5,
+  })
+  .from(".linkedin", {
+    scrollTrigger: {
+      trigger: ".linkedin",
+      anticipatePin: 1,
+      opacity: 1,
+    },
+    duration: 0.3,
+    opacity: 0,
+    delay: 0.4,
+  })
+  .from(".github", {
+    scrollTrigger: {
+      trigger: ".github",
+      anticipatePin: 1,
+      opacity: 1,
+    },
+    duration: 0.3,
+    opacity: 0,
+    delay: 0.3,
+  })
+  .from(".twitter", {
+    scrollTrigger: {
+      trigger: ".twitter",
+      anticipatePin: 1,
+      opacity: 1,
+    },
+    duration: 0.3,
+    opacity: 0,
+    delay: 0.2,
+  });
+
 // }
 // };
 
