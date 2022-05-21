@@ -226,6 +226,11 @@ header {
   font-size: 1.4em;
 }
 
+.btm-hire-me a {
+  text-decoration: none;
+  color: var(--tertiary-black);
+}
+
 .btm-hire-me {
   font-size: 0.9em;
   width: 150px;
@@ -238,7 +243,7 @@ header {
   display: inline-block;
   outline: none;
   border: 1px solid var(--tertiary-black);
-  color: var(--tertiary-black);
+
   background: transparent;
 }
 .btm-hire-me:hover:after {
