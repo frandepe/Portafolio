@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: none;
     align-items: center;
     transform: none;
@@ -78,6 +78,7 @@
 
   .lista-navegacion.activado {
     display: flex;
+    height: 2000px;
   }
 
   /* *** PRESENTACION PALETAS SUPERIORES *** */

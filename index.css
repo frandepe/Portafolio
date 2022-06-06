@@ -187,6 +187,7 @@ header {
 
 .knowledge {
   color: var(--fifth-gray);
+  width: 270px;
 }
 .knowledge .dummy {
   color: var(--fourth-gray);
