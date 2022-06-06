@@ -46,13 +46,13 @@ header {
 }
 
 .lista-navegacion {
-  margin-right: 10px;
+  margin-right: 110px;
   display: flex;
   position: relative;
   width: 510px;
   height: 50px;
   background-color: #2b2c30;
-  border-radius: 8px;
+  border-radius: 50px;
   font-size: 0;
   transform: skew(-25deg);
 }
@@ -142,7 +142,7 @@ header {
   top: 0;
   z-index: 0;
   transition: all 0.5s ease 0s;
-  border-radius: 8px;
+  border-radius: 50px;
 }
 
 .container-nav {
@@ -187,7 +187,7 @@ header {
 
 .knowledge {
   color: var(--fifth-gray);
-  width: 270px;
+  width: 300px;
 }
 .knowledge .dummy {
   color: var(--fourth-gray);
@@ -233,6 +233,7 @@ header {
 }
 
 .btm-hire-me {
+  border-radius: 50px;
   font-size: 0.9em;
   width: 150px;
   height: auto;
@@ -253,6 +254,7 @@ header {
 }
 .btm-hire-me:after {
   content: "";
+  border-radius: 50px;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -260,7 +262,7 @@ header {
   top: 5px;
   left: 5px;
   transition: 0.2s;
-  background-color: var(--primary-yellow);
+  background-color: var(--secondary-yellow);
 }
 
 /**** ABOUT ME ****/
@@ -987,22 +989,34 @@ footer {
 /* ***** GO TOP ***** */
 
 #goTop {
-  top: 90%;
-  width: 70px;
-  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
   cursor: pointer;
-  margin-left: 2%;
-  margin-bottom: 2%;
+  bottom: 15px;
+  left: 15px;
   position: fixed;
-  transition: all 2s;
-  animation: aparece 0.3s ease-in-out;
   display: none;
   color: var(--tertiary-black);
   z-index: 10;
+  border-radius: 100%;
+  transition: all 0.2s;
+}
+
+#goTop:active {
+  -webkit-box-shadow: 5px 5px 15px 5px #e8f52f, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #fbff00, 12px -5px 15px 5px #685c1b,
+    12px 10px 15px 7px #b0bd00, -10px 10px 15px 7px #e2fa8a,
+    -10px -7px 27px 1px #fffb0e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #e8f52f, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #fbff00, 12px -5px 15px 5px #685c1b,
+    12px 10px 15px 7px #b0bd00, -10px 10px 15px 7px #e2fa8a,
+    -10px -7px 27px 1px #fffb0e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#goTop i {
+  font-size: 3em;
+  animation: aparece 0.3s ease-in-out;
 }
 
 @keyframes aparece {
