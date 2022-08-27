@@ -38,9 +38,41 @@ btn.addEventListener("click", function (e) {
 });
 
 closeBtn.forEach(function (element, index) {
-  console.log(element);
   element.addEventListener("click", function (e) {
     e.preventDefault();
     card.classList.remove("active");
   });
 });
+
+// FLAGS
+
+const flagsElement = document.getElementById("flags");
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async (language) => {
+  const requestJson = await fetch(`./languages/${language}.json`);
+  const texts = await requestJson.json();
+
+  for (let textToChange of textsToChange) {
+    const section = textToChange.dataset.section;
+    const value = textToChange.dataset.value;
+    textToChange.innerHTML = texts[section][value];
+  }
+};
+
+flagsElement.addEventListener("click", (e) => {
+  changeLanguage(e.target.parentElement.dataset.language);
+});
+
+// TOOLTIP
+
+const tooltips = document.querySelectorAll(".tooltip");
+
+window.onmousemove = function (e) {
+  const x = e.clientX + 20 + "px",
+    y = e.clientY + 20 + "px";
+  for (let i = 0; i < tooltips.length; i++) {
+    tooltips[i].style.top = y;
+    tooltips[i].style.left = x;
+  }
+};
