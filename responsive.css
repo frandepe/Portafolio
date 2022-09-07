@@ -201,6 +201,32 @@
     top: 30%;
   }
 
+  /* *** CAROUSEL *** */
+
+  .container-cards-carousel {
+    height: 1100px;
+  }
+
+  .card {
+    height: 900px;
+    width: 700px;
+    font-size: 2rem;
+  }
+
+  .card h5 {
+    line-height: 45px;
+  }
+
+  .codeOnDeploy a {
+    line-height: 25px;
+  }
+
+  .carousel-button {
+    font-size: 1.7em;
+    min-width: 250px;
+    min-height: 80px;
+  }
+
   /* *** NUEVO CONTACTOS *** */
 
   .wrapper {
@@ -259,7 +285,7 @@
 
 @media (max-width: 500px) {
   .wrapper {
-    font-size: 3.9em;
+    font-size: 3em;
     line-height: 120px;
   }
 
@@ -289,5 +315,31 @@
   .input:focus ~ .cut,
   .input:not(:placeholder-shown) ~ .cut {
     transform: translateY(16px);
+  }
+
+  /* *** CAROUSEL *** */
+
+  .container-cards-carousel {
+    height: 1500px;
+  }
+
+  .card {
+    height: 1200px;
+    width: 900px;
+    font-size: 2.8rem;
+  }
+
+  .card h5 {
+    line-height: 60px;
+  }
+
+  .codeOnDeploy a {
+    line-height: 65px;
+  }
+
+  .carousel-button {
+    font-size: 2em;
+    min-width: 300px;
+    min-height: 110px;
   }
 }

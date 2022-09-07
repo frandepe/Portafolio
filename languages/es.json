@@ -97,7 +97,6 @@
     "ecommercereact-info8": "• Manejo de estados",
     "ecommercereact-code": ">> Código en GitHub ",
     "ecommercereact-deploy": ">> Ver web",
-    "alkemy-title": "CryptoApp",
     "alkemy-info1": "• Alkemy Labs es una aceleración que busca formar",
     "alkemy-info2": "desarrolladores con herramientas técnicas,",
     "alkemy-info3": "blandas y metodologías de trabajo.",
@@ -108,7 +107,19 @@
     "alkemy-info8": "Comunicación, resolución de problemas,",
     "alkemy-info9": "capacidad de aprendizaje, trabajo en equipo",
     "alkemy-code": ">> Código en GitHub ",
-    "alkemy-deploy": ">> No hay web"
+    "alkemy-deploy": ">> No hay web",
+    "mario-title": "Tienda online",
+    "mario-info1": "• Aplicación hecha con MongoDB, Express, React y Node",
+    "mario-info2": "• Cloudinary para la gestión de imágenes",
+    "mario-info3": "• Nodemailer para el envío de correo",
+    "mario-info4": "• Bcryptjs y jsonwebtoken para encriptar contraseñas y generar token",
+    "mario-info5": "• Administración de roles y permisos para usar métodos",
+    "mario-info6": "• Bootstrap como framework de desarrollo",
+    "mario-info7": "• Redux para el manejo de estados",
+    "mario-code": ">> Código en GitHub ",
+    "mario-deploy": ">> No hay web",
+    "back": "Anterior",
+    "next": "Siguiente"
   },
   "contacts": {
     "message": "Mensaje",
