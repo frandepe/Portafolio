@@ -6,6 +6,7 @@ const bgUrls = [
   "./Imagenes/proyect8.jpg",
   "./Imagenes/proyect2.jpg",
   "./Imagenes/proyect3.jpg",
+  "./Imagenes/proyect11.jpg",
 ];
 const container = document.querySelector(".container");
 const cards = document.querySelectorAll(".card");

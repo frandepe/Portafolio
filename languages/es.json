@@ -13,9 +13,9 @@
   },
   "about-me": {
     "title-about-me": "Sobre mi",
-    "description-about-me": "Mi nombre es Franco De Paulo. Soy desarrollador web especializado en frontend. Actualmente recido en la ciudad de La Plata, provincia de Bs As, Argentina. Tengo un conjunto de habilidades relacionadas principalmente con la práctica en HTML, CSS + JavaScript",
+    "description-about-me": "Mi nombre es Franco De Paulo. Soy desarrollador web especializado en frontend. Actualmente recido en la ciudad de La Plata, provincia de Bs As, Argentina. Tengo un conjunto de habilidades relacionadas con HTML, CSS + JavaScript",
     "title-education": "Educación",
-    "description-education": "Me formé en el mundo digital con NUCBA, en la carrera de programación fullstack. Rendimiento basado en: Diseño web + programación web + React JS + Back End. Proyectos integradores y bootcamps con mentores especializados."
+    "description-education": "Me formé en el mundo digital con NUCBA, en la carrera de programación fullstack. Concluí la aceleración de Alkemy y sigo formandome con cursos en Udemy"
   },
   "skills": {
     "title": "HABILIDADES",
@@ -117,7 +117,14 @@
     "mario-info6": "• Bootstrap como framework de desarrollo",
     "mario-info7": "• Redux para el manejo de estados",
     "mario-code": ">> Código en GitHub ",
-    "mario-deploy": ">> No hay web",
+    "mario-deploy": ">> Ver web",
+    "maps-title": "Mapas",
+    "maps-info1": "• Recuperación de datos desde mapbox API",
+    "maps-info2": "• Obtención de la posición del usuario mediante geolocalización",
+    "maps-info3": "• Filtrado de lugares por nombre",
+    "maps-info4": "• Cálculo de distancias de un lugar a otro",
+    "maps-code": ">> Código en GitHub ",
+    "maps-deploy": ">> Ver web",
     "back": "Anterior",
     "next": "Siguiente"
   },

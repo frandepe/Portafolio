@@ -82,7 +82,7 @@
             <div class="text"><i class="fas fa-quote-right fa1"></i>
               <div>
                 <h3 data-section="about-me" data-value="title-about-me">About me</h3>
-                <p data-section="about-me" data-value="description-about-me">My name is Franco De Paulo. I am a web developer specialized in Front End. I currently reside in the city of La Plata, province from Bs As, Argentina. I have a skill set mainly related to practice in HTML and CSS + JavaScript / React.Js</p>
+                <p data-section="about-me" data-value="description-about-me">My name is Franco De Paulo. I am a web developer specialized in Front End. I currently reside in the city of La Plata, province from Bs As, Argentina. I have a set of skills related to HTML, CSS + JavaScript</p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="text"><i class="fas fa-quote-right fa1"></i>
               <div>
                 <h3 data-section="about-me" data-value="title-education">Education</h3>
-                <p data-section="about-me" data-value="description-education">I trained in the digital world with NUCBA, in the Full Stack programming career. Performance based on: Web Design + Web Programming + React JS + Back End. Integrative projects and bootcamps with specialized mentors.</p>
+                <p data-section="about-me" data-value="description-education">I trained in the digital world with NUCBA, in the fullstack programming career. I finished the acceleration of Alkemy and I continue training with courses on Udemy</p>
               </div>
             </div>
           </div>
@@ -103,6 +103,7 @@
 
         <div class="contenedor-skills">
             <div class="linea-central">
+                <i class="icon fas fa-star icono-star"></i>
                 <i class="icon fas fa-star icono-star"></i>
                 <i class="icon fas fa-star icono-star"></i>
                 <i class="icon fas fa-star icono-star"></i>
@@ -123,21 +124,27 @@
                     </li>
                     <li class="icon-scroll-left">
                         <i class="fab fa-react icono1"></i>
-                        <p>React.Js</p>
+                        <p>React.js</p>
                     </li>
                     <li class="icon-scroll-left">
-                        <i class="fab fa-node-js icono1"></i>
-                        <p>Node.Js</p>
+                        <img class="icon-tamaño icono1" src="imagenes/i-typescript.png" alt="">
+                        <p>TypeScript</p>
+                    </li>
+                    <li class="icon-scroll-left">
+                      <img class="icon-tamaño icono1" src="imagenes/i-mongo.png" alt="">
+                      <p>MongoDB</p>
                     </li>
                     <li class="icon-scroll-left">
                         <img class="icon-tamaño icono1" src="imagenes/i-firebase.png" alt="">
                         <p>Firebase</p>
                     </li>
-                    <li class="icon-scroll-left">
-                        <i class="fab fa-wordpress icono1"></i>
-                        <p>WordPress</p>
-                       
-                    </li>
+                   
+                  <li class="icon-scroll-left">
+                    <i class="fas fa-language icono1"></i>
+                    <p data-section="skills" data-value="languages">Lenguages:</p>
+                    <p data-section="skills" data-value="es">Native spanish</p>
+                    <p data-section="skills" data-value="en">Intermediate english</p>
+                </li>
                 </ul>
             </div>
             <div class="skills-derecha">
@@ -151,24 +158,21 @@
                         <p>SASS</p>
                     </li>
                     <li class="icon-scroll-rigth">
-                        <img class="icon-tamaño icono2" src="imagenes/i-typescript.png" alt="">
-                        <p>TypeScript</p>
+                        <img class="icon-tamaño icono2" src="imagenes/i-nextjs.png" alt="">
+                        <p>Next.js</p>
+                    </li>
+                     <li class="icon-scroll-rigth">
+                        <i class="fab fa-node-js icono2"></i>
+                        <p>Node.Js</p>
                     </li>
                     <li class="icon-scroll-rigth">
-
-                        <img class="icon-tamaño icono2" src="imagenes/i-mongo.png" alt="">
-                        <p>MongoDB</p>
-                    </li>
-                    <li class="icon-scroll-rigth">
-                        <i class="fab fa-git-alt icono2"></i>
-                        <p>Git</p>
-                    </li>
-                    <li class="icon-scroll-rigth">
-                      <i class="fas fa-language icono1"></i>
-                      <p data-section="skills" data-value="languages">Lenguages:</p>
-                      <p data-section="skills" data-value="es">Native spanish</p>
-                      <p data-section="skills" data-value="en">Intermediate english</p>
+                      <i class="fab fa-wordpress icono2"></i>
+                      <p>WordPress</p>
                   </li>
+                  <li class="icon-scroll-rigth">
+                    <i class="fab fa-git-alt icono2"></i>
+                    <p>Git</p>
+                </li>
                 </ul>
             </div>
         </div>
@@ -424,10 +428,31 @@
           </div>
           <div class="codeOnDeploy">
               <div>
-                <a data-section="projects" data-value="films-code" href="https://pelistmd.netlify.app/">>> Code on GitHub </a> <i class="fab fa-github-square"></i>
+                <a data-section="projects" data-value="films-code" href="https://github.com/frandepe/TMDB-API-search">>> Code on GitHub </a> <i class="fab fa-github-square"></i>
               </div>
               <div>
-                <a data-section="projects" data-value="films-deploy" href="https://github.com/frandepe/TMDB-API-search">>> Deploy </a> <i class="eye fas fa-eye"></i>
+                <a data-section="projects" data-value="films-deploy" href="https://pelistmd.netlify.app"> >> Deploy </a> <i class="eye fas fa-eye"></i>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="heading" data-section="projects" data-value="maps-title">
+            Maps
+          </h2>
+          <h5 class="heading">React.js & TypeScript</h5>
+          <div>
+            <p data-section="projects" data-value="maps-info1">• Retrieving data from the mapbox API</p>
+            <p data-section="projects" data-value="maps-info2">• Obtaining the user's position through geolocation</p>
+            <p data-section="projects" data-value="maps-info3">• Filtering places by name</p>
+            <p data-section="projects" data-value="maps-info4">• Calculation of distances from one place to another</p>
+          </div>
+          <div class="codeOnDeploy">
+              <div>
+                <a data-section="projects" data-value="maps-code" href="https://github.com/frandepe/fmd-maps">>> Code on GitHub </a> <i class="fab fa-github-square"></i>
+              </div>
+              <div>
+                <a data-section="projects" data-value="maps-deploy" href="https://fmd-maps-app.netlify.app/"> >> Deploy </a> <i class="eye fas fa-eye"></i>
               </div>
           </div>
         </div>
@@ -557,6 +582,8 @@
         <i class="fas fa-chevron-circle-up"></i>
     </div>
     <footer>
+      <div style="position: absolute; display: none;"><a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=5668"></a></div>
         <h3>Franco De Paulo © 2022</h3>
     </footer>
 
