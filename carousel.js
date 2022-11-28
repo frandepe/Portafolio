@@ -1,12 +1,15 @@
 console.clear();
 const bgUrls = [
+  "./Imagenes/project13.jpg",
+  "./Imagenes/project12.jpg",
+  "./Imagenes/project14.jpg",
+  "./Imagenes/proyect11.jpg",
   "./Imagenes/proyect6.jpg",
   "./Imagenes/proyect4.jpg",
   "./Imagenes/proyect9.jpg",
   "./Imagenes/proyect8.jpg",
   "./Imagenes/proyect2.jpg",
   "./Imagenes/proyect3.jpg",
-  "./Imagenes/proyect11.jpg",
 ];
 const container = document.querySelector(".container");
 const cards = document.querySelectorAll(".card");
