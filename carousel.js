@@ -1,5 +1,6 @@
 console.clear();
 const bgUrls = [
+  "./Imagenes/project15.jpg",
   "./Imagenes/project13.jpg",
   "./Imagenes/project12.jpg",
   "./Imagenes/project14.jpg",

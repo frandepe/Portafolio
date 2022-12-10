@@ -107,7 +107,7 @@
     "alkemy-info8": "Comunication, problem resolution,",
     "alkemy-info9": "learning capacity, teamwork",
     "alkemy-code": ">> Code on GitHub ",
-    "alkemy-deploy": ">> Deploy ",
+    "alkemy-deploy": ">> Watch Video ",
     "mario-title": "E-commerce",
     "mario-info1": "• Application made with MongoDB, Express, React and Node",
     "mario-info2": "• Cloudinary for image management",
@@ -117,7 +117,7 @@
     "mario-info6": "• Bootstrap as a development framework",
     "mario-info7": "• Redux for handling states",
     "mario-code": ">> Code on GitHub ",
-    "mario-deploy": ">> Deploy",
+    "mario-deploy": ">> Deploy ",
 
     "nexttodo-title": "TODO - d&d",
     "nexttodo-info1": "• Application made with <span>Next.js and TypeScript</span>",
@@ -127,7 +127,7 @@
     "nexttodo-info5": "• Docker-compose to run the application",
     "nexttodo-info6": "• SSR (Server Side Rendering) made at the client's request",
     "nexttodo-code": ">> Code on GitHub ",
-    "nexttodo-deploy": ">> Deploy",
+    "nexttodo-deploy": ">> Watch video ",
 
     "nextpoke-title": "PokeFav",
     "nextpoke-info1": "• Application made with <span>Next.js and TypeScript</span>",
@@ -135,7 +135,7 @@
     "nextpoke-info3": "• Using GetStaticProps and GetStaticPaths",
     "nextpoke-info4": "• Using the pokeApi api",
     "nextpoke-code": ">> Code on GitHub ",
-    "nextpoke-deploy": ">> Deploy",
+    "nextpoke-deploy": ">> Deploy ",
 
     "fitness-title": "Fitness App",
     "fitness-info1": "• Application made with <span>React.js and TypeScript</span>",
@@ -143,7 +143,7 @@
     "fitness-info3": "• Retrieving data from the ExerciseDB API",
     "fitness-info4": "• Stopwatch in each exercise",
     "fitness-code": ">> Code on GitHub ",
-    "fitness-deploy": ">> Deploy",
+    "fitness-deploy": ">> Deploy ",
 
     "maps-title": "Maps",
     "maps-info1": "• Retrieving data from the mapbox API",
@@ -151,7 +151,19 @@
     "maps-info3": "• Filtering places by name",
     "maps-info4": "• Calculation of distances from one place to another",
     "maps-code": ">> Code on GitHub ",
-    "maps-deploy": ">> Deploy",
+    "maps-deploy": ">> Deploy ",
+
+    "next-shop-title": "Teslo Shop",
+    "next-shop-info1": "• Application made with <span>Next.js and TypeScript</span>",
+    "next-shop-info2": "• I handled the design with <span>Material UI</span>",
+    "next-shop-info3": "• Using GetStaticProps, GetStaticPaths and SSR (Server Side Rendering)",
+    "next-shop-info4": "• Using middlewares",
+    "next-shop-info5": "• Mongodb was used as database",
+    "next-shop-info6": "• Cookies",
+    "next-shop-info7": "• NextAuth",
+    "next-shop-info8": "• Payments with PayPal and Credit Cards",
+    "next-shop-code": ">> Code on GitHub ",
+    "next-shop-deploy": ">> Watch Video ",
 
     "back": "Back",
     "next": "Next"
