@@ -25,6 +25,7 @@
   },
   "projects": {
     "title": "PROYECTOS",
+    "more-projects": "MÁS PROYECTOS",
     "first-aid-title": "Auxilios",
     "first-aid-info1": "• Trabajo independiente",
     "first-aid-info2": "• El cliente puede autoadministrar su página web",
@@ -164,6 +165,15 @@
     "next-shop-info8": "• Pagos con PayPal y Tarjeta de crédito",
     "next-shop-code": ">> Código en GitHub ",
     "next-shop-deploy": ">> Ver video",
+
+    "films-mobile-title": "Películas en móvil",
+    "films-mobile-info1": "• Application hecha con <span>React Native v0.70.6 y TypeScript</span>",
+    "films-mobile-info2": "• Uso de la api themoviedb",
+    "films-mobile-info3": "• Se obtiene el color de las imagenes del carousel con la libreria react-native-image-colors",
+    "films-mobile-info4": "• Se modificaron los colores con ayuda de la librerya react-native-linear-gradient",
+    "films-mobile-info5": "• La aplicacion funciona en android y ios",
+    "films-mobile-code": ">> Código en GitHub ",
+    "films-mobile-deploy": ">> Ver video ",
 
     "back": "Anterior",
     "next": "Siguiente"

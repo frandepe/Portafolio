@@ -554,6 +554,10 @@ header {
 
 /* ***** NUEVA SECCION DE PROYECTOS ***** */
 
+.more-projects {
+  margin-top: 50px;
+}
+
 .timeline {
   display: flex;
   /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
@@ -753,7 +757,7 @@ header {
   overflow: hidden;
   color: var(--fifth-gray);
   isolation: isolate;
-  outline: 7px solid var(--fifth-gray);
+  /* outline: 7px solid var(--fifth-gray); */
 }
 
 .card h3 {

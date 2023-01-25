@@ -25,6 +25,7 @@
   },
   "projects": {
     "title": "PROJECTS",
+    "more-projects": "MORE PROJECTS",
     "first-aid-title": "First aid",
     "first-aid-info1": "• Freelance job",
     "first-aid-info2": "• The administrator user can manage the website from the backoffice",
@@ -164,6 +165,15 @@
     "next-shop-info8": "• Payments with PayPal and Credit Cards",
     "next-shop-code": ">> Code on GitHub ",
     "next-shop-deploy": ">> Watch Video ",
+
+    "films-mobile-title": "Movies on mobile",
+    "films-mobile-info1": "• Application made with <span>React Native v0.70.6 and TypeScript</span>",
+    "films-mobile-info2": "• Retrieving data from the themoviedb API",
+    "films-mobile-info3": "• The color of the carousel images is obtained with the react-native-image-colors library",
+    "films-mobile-info4": "• The colors were modified with the help of the react-native-linear-gradient library",
+    "films-mobile-info5": "• The application works on android and ios",
+    "films-mobile-code": ">> Code on GitHub ",
+    "films-mobile-deploy": ">> Watch Video ",
 
     "back": "Back",
     "next": "Next"

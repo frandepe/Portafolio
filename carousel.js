@@ -1,5 +1,6 @@
 console.clear();
 const bgUrls = [
+  "./Imagenes/project16.jpg",
   "./Imagenes/project15.jpg",
   "./Imagenes/project13.jpg",
   "./Imagenes/project12.jpg",
@@ -15,14 +16,20 @@ const bgUrls = [
 const container = document.querySelector(".container");
 const cards = document.querySelectorAll(".card");
 let xVal = 0;
-let xRate = 20;
+let xRate = 35;
 let sVal = 1;
 let sRate = 0.1;
 let zIndex = 1;
 let forwardCount = 0;
+let borderColor = 80;
 
 //INITAL SETUP
 for (let i = 0; i < cards.length; i++) {
+  cards[i].style.setProperty(
+    "outline",
+    `5px solid rgb(255, 255, ${borderColor})`
+  );
+  cards[i].style.backgroundColor = "red";
   cards[i].style.setProperty("--xVal", `${xVal}%`);
   cards[i].style.setProperty("--sVal", `${sVal}`);
   cards[i].style.setProperty("--z-index", `${zIndex}`);
@@ -30,8 +37,9 @@ for (let i = 0; i < cards.length; i++) {
   xVal += xRate;
   sVal -= sRate;
   zIndex--;
+  borderColor += 25;
 }
-
+// outline: 7px solid var(--fifth-gray)
 const moveForward = () => {
   if (forwardCount < cards.length - 1) {
     cards.forEach((card) => {
