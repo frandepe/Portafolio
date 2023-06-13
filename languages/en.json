@@ -15,7 +15,9 @@
     "title-about-me": "About me",
     "description-about-me": "My name is Franco De Paulo. I am a web developer specialized in Front End. I currently reside in the city of La Plata, province from Bs As, Argentina. I have a set of skills related to HTML, CSS + JavaScript",
     "title-education": "Education",
-    "description-education": "I trained in the digital world with NUCBA, in the fullstack programming career. I finished the acceleration of Alkemy and I continue training with courses on Udemy"
+    "description-education": "I trained in the digital world with NUCBA, in the fullstack programming career. I finished the acceleration of Alkemy and I continue training with courses on Udemy",
+    "title-experience": "Experience",
+    "description-experience": "I worked 6 months for a company with React Js. I currently work for Natura as a frontend developer"
   },
   "skills": {
     "title": "SKILLS",

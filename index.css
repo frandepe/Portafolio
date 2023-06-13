@@ -392,6 +392,30 @@ header {
   font-size: 1em;
 }
 
+.box-experience {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+.box-experience-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 40px 0;
+}
+
+.box-experience p {
+  margin-left: 5;
+}
+
+.box-experience .fa-experience1 {
+  margin-right: 8px;
+}
+.box-experience .fa-experience2 {
+  margin-left: 8px;
+}
+
 /* ***** SECCION DE HABILIDADES ***** */
 
 :root {

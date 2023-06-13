@@ -15,7 +15,9 @@
     "title-about-me": "Sobre mi",
     "description-about-me": "Mi nombre es Franco De Paulo. Soy desarrollador web especializado en frontend. Actualmente recido en la ciudad de La Plata, provincia de Bs As, Argentina. Tengo un conjunto de habilidades relacionadas con HTML, CSS + JavaScript",
     "title-education": "Educación",
-    "description-education": "Me formé en el mundo digital con NUCBA, en la carrera de programación fullstack. Concluí la aceleración de Alkemy y sigo formandome con cursos en Udemy"
+    "description-education": "Me formé en el mundo digital con NUCBA, en la carrera de programación fullstack. Concluí la aceleración de Alkemy y sigo formandome con cursos en Udemy",
+    "title-experience": "Experiencia",
+    "description-experience": "Trabajé 6 meses para una compañía con React Js. Actualmente trabajo para Natura como frontend"
   },
   "skills": {
     "title": "HABILIDADES",
